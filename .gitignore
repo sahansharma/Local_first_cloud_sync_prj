@@ -21,3 +21,9 @@ coverage/
 /.pnp/
 /.pnp.js
 /.turbo/
+
+# client-specific runtime files
+client/*.log
+client/*.pid
+client/nohup.out
+client/package-lock.json
