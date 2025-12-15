@@ -1,0 +1,33 @@
+{
+  "name": "local_first_cloud_sync_prj",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a project that enable's local first design for users (10 to 10k)",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "node server/src/index.js",
+    "dev:server": "nodemon server/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahansharma/Local_first_cloud_sync_prj.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahansharma/Local_first_cloud_sync_prj/issues"
+  },
+  "homepage": "https://github.com/sahansharma/Local_first_cloud_sync_prj#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
